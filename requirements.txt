@@ -11,14 +11,14 @@ greenlet==0.4.15 ; python_version == '3.7'
 greenlet==0.4.17 ; python_version > '3.7'
 html2text==2020.1.16
 idna==2.8
-Jinja2==2.10.1; python_version < '3.8'
+Jinja2==3.0.2; python_version < '3.8'
 # bullseye version, focal patched 2.10
-Jinja2==2.11.2; python_version >= '3.8'
+Jinja2==3.0.2; python_version >= '3.8'
 libsass==0.18.0
 lxml==4.3.2 ; sys_platform != 'win32' and python_version == '3.7'
 lxml==4.6.1 ; sys_platform != 'win32' and python_version > '3.7'
 lxml ; sys_platform == 'win32'
-MarkupSafe==1.1.0
+MarkupSafe==2.0.1
 num2words==0.5.6
 ofxparse==0.19
 passlib==1.7.2
@@ -41,7 +41,7 @@ qrcode==6.1
 reportlab==3.5.59 # version < 3.5.54 are not compatible with Pillow 8.1.2 and 3.5.59 is bullseye
 requests==2.22.0
 vobject==0.9.6.1
-Werkzeug==0.16.1
+Werkzeug==1.0.1
 xlrd==1.1.0; python_version < '3.8'
 xlrd==1.2.0; python_version >= '3.8'
 XlsxWriter==1.1.2
