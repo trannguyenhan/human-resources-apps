@@ -51,3 +51,5 @@ sudo -u postgres createdb -O trannguyenhan trannguyenhan
 ./odoo-bin -i base -d trannguyenhan
 ./odoo-bin
 ```
+
+references: [https://www.odoo.com/documentation/15.0/administration/install/install.html#source-install](https://www.odoo.com/documentation/15.0/administration/install/install.html#source-install)
