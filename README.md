@@ -48,8 +48,7 @@ sudo -u postgres createdb -O trannguyenhan trannguyenhan
 
 ### Step 6: Run
 ```
-./odoo-bin -i base -d trannguyenhan
-./odoo-bin
+python3 ./odoo-bin -i base -d trannguyenhan
 ```
 
 references: [https://www.odoo.com/documentation/15.0/administration/install/install.html#source-install](https://www.odoo.com/documentation/15.0/administration/install/install.html#source-install)
