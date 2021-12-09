@@ -51,4 +51,5 @@ sudo -u postgres createdb -O trannguyenhan trannguyenhan
 python3 ./odoo-bin -i base -d trannguyenhan
 ```
 
+### Step 7: Install app in category Human Resource
 references: [https://www.odoo.com/documentation/15.0/administration/install/install.html#source-install](https://www.odoo.com/documentation/15.0/administration/install/install.html#source-install)
